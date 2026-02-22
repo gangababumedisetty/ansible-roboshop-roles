@@ -1,5 +1,5 @@
   - name: copy rabbitmq repo 
-    anaible.builtin.copy:
+    ansible.builtin.copy:
       src: rabbitmq.repo
       dest: /etc/yum.repos.d/rabbitmq.repo
 
