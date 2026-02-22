@@ -3,10 +3,10 @@
     name: common
     tasks_from: app-setup.yaml
 
-- name: python setup
+- name: paython setup
   ansible.builtin.import_role:
     name: common
-    tasks_from: python-setup.yaml
+    tasks_from: paython-setup.yaml
 
 - name: systemd setup
   ansible.builtin.import_role:
